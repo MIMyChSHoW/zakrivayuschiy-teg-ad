@@ -10,14 +10,6 @@
 
 */
 
-@supports (-webkit-text-stroke: 1px var(--stroke-color)) or (--text-stroke: 1px var(--stroke-color)) {
-    .card__image-label {
-        --text-stroke: 1px var(--stroke-color);
-        -webkit-text-stroke: 1px var(--stroke-color);
-        text-shadow: none;
-    }
-}
-
 body {
   background:
     repeating-linear-gradient(
@@ -136,6 +128,14 @@ body {
           0 -1px var(--text-stroke-color, rgb(255 255 255 / 0.5));
   mix-blend-mode: hard-light;
 }
+
+/*@supports (-webkit-text-stroke: 1px var(--stroke-color)) or (--text-stroke: 1px var(--stroke-color)) {
+    .img-text {
+        --text-stroke: 1px var(--text-stroke-color);
+        -webkit-text-stroke: 1px var(--text-stroke-color);
+        text-shadow: none;
+    }
+}*/
 
 .card__like-button {
   inline-size: 130px;
