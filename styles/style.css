@@ -129,14 +129,6 @@ body {
   mix-blend-mode: hard-light;
 }
 
-/*@supports (-webkit-text-stroke: 1px var(--stroke-color)) or (--text-stroke: 1px var(--stroke-color)) {
-    .img-text {
-        --text-stroke: 1px var(--text-stroke-color);
-        -webkit-text-stroke: 1px var(--text-stroke-color);
-        text-shadow: none;
-    }
-}*/
-
 .card__like-button {
   inline-size: 130px;
   block-size: 38px;
